@@ -1,35 +1,47 @@
+@media screen and (max-width: 600px) {
+  /* Styles for screens with a maximum width of 600px */
+}
+
+
 header {
-    background-color: #2b2e38;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 50px
-  }
+  background-color: #2b2e38;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 5em;
+}
 
 nav ul {
-list-style-type: none;
-margin: 0;
-padding: 0;
-text-align: center;
-margin-top: 5px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  margin-top: 5px;
 }
 
 nav li {
-display: inline-block;
+  display: inline-block;
 }
 
 nav li.left {
-float: left;
+  float: left;
 }
 
 nav li.right {
-float: right;
+  float: right;
 }
 
 nav li a {
-display: block;
-color: white;
-padding: 10px 20px;
-text-decoration: none;
+  display: block;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
 }
+
+/* Add this rule to your CSS */
+.logo {
+  max-height: 50px; /* Adjust the value to your preference */
+}
+
+
